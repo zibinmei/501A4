@@ -10,7 +10,7 @@ void fileReader(char *fname){
     char *buffer;
     long filelen;
 
-    fptr = fopen(fanme,"rb");
+    fptr = fopen(fname,"rb");
     if (fptr == NULL){
         exit(0);
     }
