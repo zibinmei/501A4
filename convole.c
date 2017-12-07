@@ -22,8 +22,10 @@ int main (int argc, char *argv[]){
     fclose(fptr);
     int i = 0;
     while(1){
+
         if (buffer[i] == '\0') break;
         printf("%u ", buffer[i]);
+        i++;
     }
 
 }
