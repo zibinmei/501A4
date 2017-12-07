@@ -23,7 +23,7 @@ int main (int argc, char *argv[]){
     int i = 0;
     while(1){
 
-        printf("%u ", buffer[i]);
+        printf("%x ", buffer[i]);
         i++;
     }
 
