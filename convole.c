@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 
-FILE *fptr;
-char *buffer;
-long filelen;
 
-int main (int argc, char *argv[]){
-    if (argc != 4){
-        printf("Try:./convole input IRfile outputfile\n");
-        return 0;
+
+
+void fileReader(char *fname){
+    //https://stackoverflow.com/questions/22059189/read-a-file-as-byte-array
+    FILE *fptr;
+    char *buffer;
+    long filelen;
+
+    fptr = fopen(fanme,"rb");
+    if (fp == NULL){
+        exit(0);
     }
 
-    //https://stackoverflow.com/questions/22059189/read-a-file-as-byte-array
-    fptr = fopen(argv[1],"rb");
+
     fseek(fptr, 0, SEEK_END);
     filelen = ftell(fptr);
     rewind(fptr);
@@ -21,10 +24,20 @@ int main (int argc, char *argv[]){
     fread(buffer, filelen, 1, fptr);
     fclose(fptr);
     int i = 0;
-    while(1){
+    while(i<36){
 
         printf("%x ", buffer[i]);
         i++;
     }
+
+}
+
+
+int main (int argc, char *argv[]){
+    if (argc != 4){
+        printf("Try:./convole input IRfile outputfile\n");
+        return 0;
+    }
+
 
 }
