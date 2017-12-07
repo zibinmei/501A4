@@ -23,12 +23,11 @@ void fileReader(char *fname){
     buffer = (char *)malloc((filelen+1)*sizeof(char));
     fread(buffer, filelen, 1, fptr);
     fclose(fptr);
-    int i = 0;
-    while(i<36){
 
-        printf("%x ", buffer[i]);
-        i++;
-    }
+
+
+    printf("%x ", buffer);
+
 
 }
 
