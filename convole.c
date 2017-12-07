@@ -11,7 +11,7 @@ void fileReader(char *fname){
     long filelen;
 
     fptr = fopen(fanme,"rb");
-    if (fp == NULL){
+    if (fptr == NULL){
         exit(0);
     }
 
