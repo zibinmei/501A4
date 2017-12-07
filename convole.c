@@ -21,7 +21,7 @@ int main (int argc, char *argv[]){
     fread(buffer, filelen, 1, fptr);
     fclose(fptr);
     int i = 0;
-    while(true){
+    while(1){
         if (buffer[i] == '\0') break;
         printf("%u ", buffer[i]);
     }
