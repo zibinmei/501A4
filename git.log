@@ -1,0 +1,47 @@
+commit ff924d40f7c62606acaf64e348578cbe0d586492
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 14:49:56 2017 -0700
+
+    trying to make four1 work
+
+commit 72b706b9682af0545256e4438704dacbe67af21d
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 14:28:43 2017 -0700
+
+    fixing bugs
+
+commit 353d6b16581ccd60ac5f984275156c335a1ec5c0
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 13:34:10 2017 -0700
+
+    complex
+
+commit f9d0e23e15af6ad2f6618c1d5658956e343fb34c
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 12:42:46 2017 -0700
+
+    working on fft
+
+commit 9fe1355b9bb20f73f94c1a661d9dc6528e80a092
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 10:15:16 2017 -0700
+
+    convolve done
+
+commit 2b146a4291f5981951ae60d73885b26a97eb666b
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 08:56:48 2017 -0700
+
+    filereader good to go
+
+commit f11729a97e38af3129e622133fe4a29bd6bf25a9
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 08:09:38 2017 -0700
+
+    1
+
+commit e8a1c3fc913fdec370bae4769e046e0e3cfb40d2
+Author: zmei <zibinmei@outlook.com>
+Date:   Sun Dec 10 07:29:12 2017 -0700
+
+    init
